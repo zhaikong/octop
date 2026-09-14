@@ -15,8 +15,6 @@ ehthumbs.db
 Desktop.ini
 
 # Environment / secrets
-.env
-.env.*
 !.env.example
 
 # Python
@@ -53,7 +51,6 @@ coverage.xml
 .hypothesis/
 
 # IDE / editors
-.vscode/
 .idea/
 .codebuddy
 *.swp
@@ -104,3 +101,4 @@ scripts/dev-local-link.sh
 docs/superpowers/
 scripts/lh_image_install_octop_tencentos.sh
 .worktrees/
+config.bat
