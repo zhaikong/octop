@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "node api.js && vite --host",
     "build": "tsc -b && NODE_ENV=production vite build",
     "build:docker": "vite build",
     "build:prod": "tsc -b && vite build --mode production",
